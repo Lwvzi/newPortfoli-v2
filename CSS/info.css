@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+
+/*Navbar*/
+nav .inav{
+    background: transparent;
+    padding: 21px 0;
+    transition: all .3s ease-in-out;
+}
+
+.ibrand{
+    width: 34px;
+}
+
+.fa-bars{
+    color: white;
+}
+
+nav .navbar-brand{
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+}
+
+nav .navbar-nav .nav-link{
+    color: #fff!important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Ubuntu';
+}
+
+nav .navbar-nav .nav-link{
+    margin-left: 14px;
+}
+
+
+
+/*========================= Home Section ===================================*/
+.banner-area{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+
+}
+
+.banner-area:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: purple;
+    opacity: .45;
+    z-index: -11;
+}
+
+.banner h1{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.banner h1:hover{
+    -webkit-text-stroke: 2px #fff !important;
+    color: transparent !important;
+    transition: 0.3s ease-in;
+}
+
+
+.banner h3{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.banner h3:hover{
+    -webkit-text-stroke: 2px #fff !important;
+    color: transparent !important;
+    transition: 0.3s ease-in;
+}
+
+
+.btn-div{
+    margin-top: 35px;
+}
+
+.btn-infoR{
+    background: linear-gradient(180deg, red, rgb(125, 1, 1));
+    border-radius: 50%;
+    margin-right: 14px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    transition: all .3s ease-out;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-infoR:hover{
+    transition: all .3s ease-in;
+    background: transparent;
+    color: red;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn-infoB{
+    background: linear-gradient(180deg, blue, rgb(0, 0, 123));
+    border-radius: 50%;
+    margin-left: 14px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    transition: all .3s ease-out;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-infoB:hover{
+    transition: all .3s ease-in;
+    background: transparent;
+    color: blue;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*video bg*/
+.video-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ivideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio: 16/9){
+    .ivideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .ivideo{
+        width: auto;
+        height: 100%;
+    }
+}

@@ -21,3 +21,6 @@ $('#slide').owlCarousel({
     }
 
 });
+
+
+
