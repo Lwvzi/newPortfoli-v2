@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body{
+        background: #126fe02b;
+    }
+
+    .wrapper{
+        width: 300px;
+        height: 380px;
+        perspective: 1000px;
+        margin: 8rem auto;
+        border-radius: 10px;
+        box-shadow: 0 21px 35px black;
+    }
+
+    .flipper-inner-wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.8s;
+    }
+
+    .wrapper:hover .flipper-inner-wrapper{
+        transform: rotateY(180deg);
+        cursor: pointer;
+    }
+
+    .flip-front,
+    .flip-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+    }
+
+    .flip-front{
+        background-color: #fff;
+    }
+
+    .flip-back{
+        width: 320px;
+        height: 380px;
+        transform: rotateY(180deg);
+        background-color: greenyellow;
+    }
+
+
+
+
+</style>
+
+<body>
+
+
+    <div class="wrapper">
+
+        <div class="flipper-inner-wrapper">
+
+            <div class="flip-front">
+
+                <p class="lead mt-3 mb-5">I am a multilingual, detail-oriented worker with both formal and informal employment experience. Versatile skill set with experience in software engineering, customer service, sales, and written and oral communication. A team player who takes initiative and is willing to learn more at every place of employment since I am cognizant about the fact that no one knows everything and no one is an island.</p>
+
+            </div>
+
+            <div class="flip-back">
+
+                <p class="lead mt-3 mb-5">I am a multilingual, detail-oriented worker with both formal and informal employment experience. Versatile skill set with experience in software engineering, customer service, sales, and written and oral communication. A team player who takes initiative and is willing to learn more at every place of employment since I am cognizant about the fact that no one knows everything and no one is an island.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
