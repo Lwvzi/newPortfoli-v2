@@ -189,7 +189,7 @@ nav .navbar-nav .nav-link{
 }
 
 .purp{
-    color:rgb(101, 0, 101);
+    color:rgba(164, 0, 164, 0.756);
 }
 
 .wrapper{
@@ -226,6 +226,7 @@ nav .navbar-nav .nav-link{
 .flip-front p,
 .flip-back p{
     margin-top: 14px;
+    font-size: 16px;
 }
 
 .flip-back{
@@ -235,6 +236,7 @@ nav .navbar-nav .nav-link{
 .flip-back p{
     color: purple;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .flip-front p{
@@ -265,7 +267,7 @@ nav .navbar-nav .nav-link{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(128, 0, 128, 0.414);
+    background: rgba(128, 0, 128, 0.415);
     z-index: -1;
 }
 
@@ -476,4 +478,115 @@ h4 span{
 
 .owl-theme .owl-dots .owl-dot span:hover{
     background-color: purple !important;
+}
+
+
+
+/*============ Price Area =============*/
+.prices{
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.pricelist{
+    text-align: center;
+    background-color: #fff;
+    padding: 21px 28px;
+    margin: 14px 21px;
+}
+
+.pricelist i{
+    text-decoration: none;
+}
+
+.pricelist h5{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pricelist h2{
+    font-weight: 800;
+    background-color: rgba(128, 128, 128, 0.333);
+    margin: 14px 0;
+    padding: 14px;
+    transition: all .3s ease-in;
+}
+
+.pricelist h2:hover{
+    transition: all .3s ease-out;
+    border-radius: 50%;
+}
+
+.pricelist ul li{
+    font-weight: 700;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+}
+
+
+.pricelist.active{
+    border: 3px solid purple;
+}
+
+.pricelist.active h2{
+    background-color: purple;
+    color: #000;
+}
+
+
+
+
+/*=============================Contact Section ==================================*/
+#contact{
+    position: relative;
+    z-index: 2;
+}
+
+.cont{
+    color: black;
+}
+
+form .form-control{
+    border: 0.5;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(128, 0, 128, 0.463);
+}
+
+form .form-control:focus{
+    color: white;
+    background: transparent;
+    border-color: rgba(128, 0, 128, 0.463);
+}
+
+form input .form-control{
+    height: 56px;
+}
+
+form .form-control::placeholder{
+    color: white;
+}
+
+.icontacts{
+    display: grid;
+}
+
+.contact-option{
+    margin-right: 28px;
+}
+
+.contact-option i{
+    background-color: purple;
+    width: 56px;
+    height: 56px;
+    color: #000;
+    font-size: 21px;
+    line-height: 56px;
+    transition: all .4s ease-in;
+}
+
+.contact-option i:hover{
+    transition: all .4s ease-out;
+    border-radius: 50%;
+    color: white;
 }
