@@ -234,11 +234,11 @@ nav .navbar-nav .nav-link{
 
 .flip-back p{
     color: purple;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .flip-front p{
-    font-weight: 600;
+    font-weight: 700;
     color: purple !important;
 }
 
@@ -286,7 +286,7 @@ nav .navbar-nav .nav-link{
 }
 
 .section-title p{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 21px;
 }
 
@@ -330,7 +330,7 @@ nav .navbar-nav .nav-link{
 }
 
 .iservice p{
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
@@ -400,7 +400,7 @@ nav .navbar-nav .nav-link{
 .timeline-content span{
     display: block;
     color: purple;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .timeline-content h4{
@@ -420,3 +420,60 @@ nav .navbar-nav .nav-link{
     text-align: left;
 }
 
+
+
+
+
+/*========================= Reviews Section =========================*/
+#reviews{
+    position: relative;
+    z-index: 2;
+}
+
+.indiv-review{
+    text-align: center;
+}
+
+.indiv-review img{
+    border-radius: 50%;
+    width: 120px !important;
+    margin: 0 auto;
+}
+
+.indiv-review p{
+    margin-top: 21px;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 700px;
+    margin: 21px auto;
+}
+
+.client-info h4{
+font-weight: 700;
+}
+
+h4 span{
+    display: block;
+    font-size: 18px;
+    margin-top: 7px;
+    font-weight: 900;
+}
+
+.fa-star{
+    color: goldenrod;
+}
+
+/*owlCarousel*/
+.owl-theme .owl-dots .owl-dot span{
+    background-color: white !important;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+
+.owl-theme .owl-dots .owl-dot span:hover{
+    background-color: purple !important;
+}
