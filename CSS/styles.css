@@ -492,6 +492,12 @@ h4 span{
     background-color: #fff;
     padding: 21px 28px;
     margin: 14px 21px;
+    transition: all .3s ease-in;
+}
+
+.pricelist:hover{
+    border: 3px solid purple;
+    transition: all .3s ease-out;
 }
 
 .pricelist i{
@@ -514,6 +520,8 @@ h4 span{
 .pricelist h2:hover{
     transition: all .3s ease-out;
     border-radius: 50%;
+    background-color: purple;
+    color: #000;
 }
 
 .pricelist ul li{
@@ -522,18 +530,6 @@ h4 span{
     margin-bottom: 14px;
     text-transform: capitalize;
 }
-
-
-.pricelist.active{
-    border: 3px solid purple;
-}
-
-.pricelist.active h2{
-    background-color: purple;
-    color: #000;
-}
-
-
 
 
 /*=============================Contact Section ==================================*/
@@ -589,4 +585,24 @@ form .form-control::placeholder{
     transition: all .4s ease-out;
     border-radius: 50%;
     color: white;
+}
+
+
+
+
+
+
+/*===================== Footer ========================*/
+footer{
+    background: linear-gradient(90deg, purple, black);
+}
+.social-links i{
+    color: black;
+    font-size: 21px;
+    transition: all .3s ease-in;
+}
+
+.social-links i:hover{
+    color: purple;
+    transition: all .3s ease-out;
 }
