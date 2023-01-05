@@ -193,7 +193,7 @@ nav .navbar-nav .nav-link{
 }
 
 .wrapper{
-    width: 350px;
+    width: 340px;
     height: 400px;
     perspective: 1000px;
     margin: 8rem auto;
@@ -245,7 +245,7 @@ nav .navbar-nav .nav-link{
 
 .flip-front{
     background-color: #fff !important;
-    width: 350px;
+    width: 340px;
     height: 400px;
     transform: rotateY(180deg);
 }
@@ -332,4 +332,39 @@ nav .navbar-nav .nav-link{
 
 .iservice p{
     font-weight: 600;
+}
+
+
+
+
+/*============================ Counter Area ===============================*/
+.counter-area{
+    background: linear-gradient(90deg, rgba(128, 0, 128, 0.333), rgba(0, 0, 0, 0.333));
+}
+
+.indiv-counter{
+    text-align: center;
+}
+
+.indiv-counter i{
+    background-color: purple;
+    width: 56px;
+    height: 56px;
+    color: #fff;
+    font-size: 21px;
+    line-height: 56px;
+    transition: all .4s ease-in;
+    margin-bottom: 7px;
+}
+
+.indiv-counter i:hover{
+    transition: all .4s ease-out;
+    border-radius: 50%;
+    color: black;
+
+}
+
+.indiv-counter p, .indiv-counter h4{
+    font-weight: 700;
+    font-size: 21px;
 }
