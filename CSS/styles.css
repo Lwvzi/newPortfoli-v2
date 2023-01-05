@@ -64,6 +64,12 @@ nav .navbar-nav .nav-link{
     margin-left: 14px;
 }
 
+a.nav-link.active{
+    background: -webkit-linear-gradient(var(purple), var(rgb(98, 1, 98)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: purple;
+}
+
 
 
 /*========================= Home Section ===================================*/
