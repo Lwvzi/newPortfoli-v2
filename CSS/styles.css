@@ -602,6 +602,11 @@ form .form-control::placeholder{
 footer{
     background: linear-gradient(90deg, purple, black);
 }
+
+footer{
+    font-weight: 700;
+}
+
 .social-links i{
     color: black;
     font-size: 21px;
