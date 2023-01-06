@@ -56,7 +56,17 @@ nav .inav{
 }
 
 
+.fa-bars{
+    background-color: #fff;
+    font-size: 21px;
+    transition: all .3s ease-in;
+}
 
+.fa-bars:hover{
+    background-color: rgba(128, 128, 128, 0.336);
+    transition: all .3s ease-out;
+    color: purple;
+}
 
 .ibrand{
     width: 34px;
@@ -583,13 +593,13 @@ form .form-control{
     border: 0.5;
     background: transparent;
     color: #fff;
-    border-color: rgba(128, 0, 128, 0.463);
+    border-color: white;
 }
 
 form .form-control:focus{
     color: white;
     background: transparent;
-    border-color: rgba(128, 0, 128, 0.463);
+    border-color: white;
 }
 
 form input .form-control{
@@ -598,10 +608,6 @@ form input .form-control{
 
 form .form-control::placeholder{
     color: white;
-}
-
-.icontacts{
-    display: grid;
 }
 
 .contact-option{

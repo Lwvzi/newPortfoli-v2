@@ -5,3 +5,15 @@
         row-gap: 7px;
     }
 }
+
+
+@media screen and (max-width: 760px) {
+    .timeline::after{
+        display: none;
+    }
+
+    .timeline li .timeline-content{
+        width: 100%;
+        text-align: center;
+    }
+}
