@@ -30,12 +30,33 @@ section{
     padding-bottom: 100px;
 }
 
+/*preloader CSS*/
+.pre-loader{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.pre-loader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 /*Navbar*/
 nav .inav{
-    background: transparent;
+    background: transparent !important;
     padding: 21px 0;
     transition: all .3s ease-in-out;
 }
+
+
+
 
 .ibrand{
     width: 34px;
@@ -62,6 +83,10 @@ nav .navbar-nav .nav-link{
 
 nav .navbar-nav .nav-link{
     margin-left: 14px;
+}
+
+a.nav-link:hover{
+    color: purple!important;
 }
 
 a.nav-link.active{
@@ -513,6 +538,12 @@ h4 span{
 .pricelist h5{
     font-weight: 800;
     text-transform: uppercase;
+    transition: all .3s ease-in;
+}
+
+.pricelist h5:hover{
+    color: black;
+    transition: all .3s ease-out;
 }
 
 .pricelist h2{
@@ -609,7 +640,8 @@ footer{
 
 .social-links i{
     color: black;
-    font-size: 21px;
+    font-size: 28px;
+    font-weight: 700;
     transition: all .3s ease-in;
 }
 
